@@ -10,7 +10,7 @@ const Products = () => {
   // Fetch products based on category
   const fetchProducts = async (category) => {
     try {
-      const response = await fetch("https://fresh-buckets-teach.loca.lt/products", {
+      const response = await fetch("http://localhost:8000/products", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
